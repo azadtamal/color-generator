@@ -27,5 +27,5 @@ function randomColor() {
   }
   document.getElementById("container").style.backgroundColor = color;
   document.getElementById("output").style.color = color;
-  document.getElementById("output").style.innerHTML = color;
+  document.getElementById("output").innerHTML = color;
 }
